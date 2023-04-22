@@ -97,7 +97,7 @@ a {
 .navbar__list {
     display: flex;
 }
-.action__login,
+.header-action__login,
 .navbar__link {
     padding: 4px 21px;
     font-weight: 300;
@@ -120,7 +120,13 @@ a {
     border-radius: 50%;
     background: #fff;
 }
-.action__sign-up {
+.header-action {
+    display: flex;
+    align-items: center;
+}
+
+.header-action__sign-up {
     --height: 44px;
     min-width: 104px;
+    margin-left: 7px;
 }
