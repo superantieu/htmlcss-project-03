@@ -322,3 +322,37 @@ a {
     line-height: 1.75;
     color: #2e80ce;
 }
+/* Features */
+.feature {
+    margin-top: 85px;
+    padding: 85px 0;
+}
+.feature__media {
+    width: 48%;
+}
+.feature__images {
+    position: relative;
+    padding-bottom: 121px;
+    padding-right: 58px;
+}
+.feature__img {
+    width: 512px;
+    height: 370px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+.feature__img:last-child {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 332px;
+    height: 370px;
+}
+.feature__inner {
+    display: flex;
+    align-items: center;
+    column-gap: 130px;
+}
+.feature__cta {
+    margin-top: 38px;
+}
