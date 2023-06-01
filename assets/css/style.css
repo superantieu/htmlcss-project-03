@@ -404,14 +404,25 @@ button {
     margin-top: 38px;
 }
 .member__list {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+
     column-gap: 30px;
     margin-top: 70px;
+    overflow: hidden;
+    transition: 2s;
+}
+
+.member-item {
+    flex-shrink: 0;
+    width: 265px;
+    transition: 1.5s;
 }
 .member__control {
     margin-top: 38px;
     justify-content: center;
+}
+.control__btn {
+    transition: 0.5s;
 }
 .member-item:hover .member-item__thumb {
     transform: scale(1.1);
@@ -420,7 +431,6 @@ button {
     padding-top: 28px;
     border-radius: 6px;
     background: #eaf6ff;
-    overflow: hidden;
 }
 .member-item__thumb {
     display: block;
